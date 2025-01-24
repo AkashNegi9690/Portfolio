@@ -21,7 +21,7 @@ export default function Contact() {
             <span className="text-gray-300">akashnegi@email.com</span>
           </a>
           <a
-            href="tel:+1234567890"
+            href="tel:+917017666595"
             className="flex flex-col items-center p-6 bg-gray-800 rounded-lg hover:bg-gray-700 transition-colors"
           >
             <Phone size={24} className="mb-4" />
