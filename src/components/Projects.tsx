@@ -34,7 +34,7 @@ export default function Projects() {
       <div className="max-w-3xl mx-auto">
         <h2 className="text-3xl font-bold text-center mb-12">Projects</h2>
         <div className="space-y-12">
-          {projects.map((project, index) => (
+          {projects.map((project) => (
             <motion.div
               key={project.title}
               initial={{ opacity: 0, y: 20 }}

@@ -6,7 +6,7 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = React.useState(false);
 
   const menuItems = [
-    { label: 'About', to: 'about' },
+    { label: 'About', to: 'hero' },
     { label: 'Skills', to: 'skills' },
     { label: 'Projects', to: 'projects' },
     { label: 'Contact', to: 'contact' },
