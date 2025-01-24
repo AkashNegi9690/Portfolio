@@ -36,11 +36,11 @@ export default function Navbar() {
             </div>
             
             <div className="flex items-center space-x-4">
-              <a href="https://github.com" target="_blank" rel="noopener noreferrer" 
+              <a href="https://github.com/AkashNegi9690" target="_blank" rel="noopener noreferrer" 
                  className="text-gray-300 hover:text-white transition-colors">
                 <Github size={24} />
               </a>
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer"
+              <a href="https://www.linkedin.com/in/akash-negi-a476b8255/" target="_blank" rel="noopener noreferrer"
                  className="text-gray-300 hover:text-white transition-colors">
                 <Linkedin size={24} />
               </a>
@@ -69,11 +69,11 @@ export default function Navbar() {
                 </Link>
               ))}
               <div className="flex space-x-4 pt-4 border-t border-gray-700">
-                <a href="https://github.com" target="_blank" rel="noopener noreferrer"
+                <a href="https://github.com/AkashNegi9690" target="_blank" rel="noopener noreferrer"
                    className="text-gray-300 hover:text-white transition-colors">
                   <Github size={24} />
                 </a>
-                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer"
+                <a href="https://www.linkedin.com/in/akash-negi-a476b8255/" target="_blank" rel="noopener noreferrer"
                    className="text-gray-300 hover:text-white transition-colors">
                   <Linkedin size={24} />
                 </a>

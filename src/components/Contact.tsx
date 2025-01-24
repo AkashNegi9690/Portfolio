@@ -19,18 +19,18 @@ export default function Contact() {
             className="flex flex-col items-center p-6 bg-gray-800 rounded-lg hover:bg-gray-700 transition-colors"
           >
             <Mail size={24} className="mb-4" />
-            <span className="text-gray-300">example@email.com</span>
+            <span className="text-gray-300">akashnegi@email.com</span>
           </a>
           <a
             href="tel:+1234567890"
             className="flex flex-col items-center p-6 bg-gray-800 rounded-lg hover:bg-gray-700 transition-colors"
           >
             <Phone size={24} className="mb-4" />
-            <span className="text-gray-300">+1 234 567 890</span>
+            <span className="text-gray-300">+91 7017666595</span>
           </a>
           <div className="flex flex-col items-center p-6 bg-gray-800 rounded-lg">
             <MapPin size={24} className="mb-4" />
-            <span className="text-gray-300">New York, USA</span>
+            <span className="text-gray-300">Dehradun Uttrakhand, INDIA</span>
           </div>
         </motion.div>
       </div>

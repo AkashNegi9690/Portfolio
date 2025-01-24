@@ -1,21 +1,30 @@
-import React from 'react';
 import { motion } from 'framer-motion';
 import { Github, ExternalLink } from 'lucide-react';
+import brainly from '../assets/brainly.png';
+import gaminghub from '../assets/gaminghub.png';
+import paynow from '../assets/paynow.png';
 
 const projects = [
   {
-    title: 'E-Commerce Platform',
-    description: 'A full-stack e-commerce platform built with React and Node.js',
-    image: 'https://images.unsplash.com/photo-1557821552-17105176677c?auto=format&fit=crop&q=80&w=800',
-    github: 'https://github.com',
-    live: 'https://example.com'
+    title: 'Pay Now',
+    description: 'Developed a payment app allowing users to send money to other users in the database.Technologies: MERN Stack, Tailwind CSS',
+    image:paynow,
+    github: 'https://github.com/AkashNegi9690/PayNow',
+    live: 'https://pay-now-eight.vercel.app/'
   },
   {
-    title: 'Task Management App',
-    description: 'A collaborative task management application with real-time updates',
-    image: 'https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&q=80&w=800',
-    github: 'https://github.com',
-    live: 'https://example.com'
+    title: 'Brainly-Second Brain App',
+    description: ' Developed an app to organize YouTube, Twitter links, and notes for increased user productivity.Technologies: MERN Stack, Tailwind CSS',
+    image:brainly,
+    github: 'https://github.com/AkashNegi9690/Brainly',
+    live: 'https://brainly-three.vercel.app/'
+  },
+  {
+    title: 'Game Hub',
+    description: 'Developed a platform for playing multiple small games.Technologies: React, Tailwind CSS',
+    image:gaminghub,
+    github:"https://github.com/AkashNegi9690/GameHub",
+    live: 'https://flip-rush-tawny.vercel.app/'
   }
 ];
 
